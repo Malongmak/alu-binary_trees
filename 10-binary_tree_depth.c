@@ -14,5 +14,5 @@ if (!tree || !tree->parent)
 return (0);
 }
 depth = binary_tree_depth(tree->parent);
-return (depth+1);
+return (depth + 1);
 }
