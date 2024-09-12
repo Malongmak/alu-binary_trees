@@ -13,7 +13,7 @@ if (!tree)
 {
 return (0);
 }
-left = binary_tree_balance(tree->left) + 1;
-right = binary_tree_balance(tree->right) + 1;
+left = binary_tree_height(tree->left);
+right = binary_tree_height(tree->right);
 return (left - right);
 }
