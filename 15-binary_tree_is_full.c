@@ -16,5 +16,5 @@ if ((!tree->left && !tree->right))
 {
 return (1);
 }
-return(binary_tree_is_full(tree->left) * binary_tree_is_full(tree->right));
+return (binary_tree_is_full(tree->left) * binary_tree_is_full(tree->right));
 }
